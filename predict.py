@@ -15,7 +15,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 # Load Model (for prediction)
 # -----------------------------------
 model = ScriptCNN(num_classes=num_classes).to(device)
-checkpoint_path = "checkpoints/final_weights.pt"
+checkpoint_path = "checkpoints/final_weights.pth"
 
 if os.path.exists(checkpoint_path):
     model.load_state_dict(torch.load(checkpoint_path, map_location=device))
