@@ -106,7 +106,7 @@ def train_model(model, num_epochs, train_loader, loss_fn, optimizer, val_loader=
         if val_loss is not None and (best_val_loss - val_loss > min_delta):
             best_val_loss = val_loss
             early_stop_counter = 0
-            torch.save(model.state_dict(), "checkpoints/final_weights.pt")
+            torch.save(model.state_dict(), "checkpoints/final_weights.pth")
             logger.info("Validation loss improved. Model saved!")
         else:
             early_stop_counter += 1
