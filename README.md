@@ -87,6 +87,7 @@ This section briefly describes the key modules and functions, including their in
     - Produces logits for three classes via a combination of standard convolutional layers, Inception modules, global pooling, and a dense layer.
 
 ### train.py
+**NOTE: the training and test directory have the following structure: root--->train/test--->classes(Brahmi/Classical Chinese/Phoenician)--->character_folder--->image files**
 - **set_eval_loaders(val_dl, test_dl)**  
   - **Input:**  
     - `val_dl`: Validation DataLoader  
