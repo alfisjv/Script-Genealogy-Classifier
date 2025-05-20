@@ -1,4 +1,4 @@
-# Script Classification Project
+# Script Genealogy Classification Project
 
 The evolution of writing systems has led to a diverse array of scripts, many structurally linked to their ancient predecessors, and understanding these relationships is crucial for studying the evolution of language and culture. This project aims to classify handwritten characters from three major historical parent scripts---Brahmi, Classical Chinese, and Phoenician---using a Convolutional Neural Network (CNN). Initially, the classifier will be trained and tested on labeled data from these scripts:
 
