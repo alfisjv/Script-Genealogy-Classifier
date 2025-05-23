@@ -22,6 +22,7 @@ The model is trained on a subset of scripts from each parent class and a daughte
 - **Classical Chinese (Hanzi)**: Japanese Kanji, Korean Hanja, Vietnamese Nôm, Seal, Regular, Cursive
 
 **NOTE: Make sure that the images used for evaluation are handwritten and not stylised. Since the model was trained on handwritten characters, using stylised versions might give unreliable outputs**
+
 **NOTE: Make sure that the script characters are sufficiently far from the image border**
 
 ## **Data Sources**
